@@ -5,7 +5,7 @@ opcion: str
 def sumar(a: int, b: int):
     return a + b
 
-def multiplicar(a: int, b: int):
+def multiplicar(a: int, b: int) -> float:
     return a * b
 
 def mostrar_menu():
